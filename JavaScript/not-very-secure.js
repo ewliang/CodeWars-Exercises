@@ -14,3 +14,7 @@
   MY SOLUTION
 */
 
+function alphanumeric(string){
+  let regex = /^[a-zA-Z0-9]+$/ig; //The presence of ^ and $ detects for null or aka no input ""
+  return regex.test(string) ? true:false;
+}
